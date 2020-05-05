@@ -2,8 +2,8 @@
     "name": "milan",
     "version": "0.0.0",
     "scripts": {
-        "heroku-postbuild": "ng build --prod",
         "ng": "ng",
+        "postinstall": "ng build --aot --prod",
         "start": "node server.js",
         "build": "ng build",
         "test": "ng test",
