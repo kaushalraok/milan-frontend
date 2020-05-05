@@ -16,7 +16,7 @@ const GET_HEADERS = {
 })
 export class HttpClientServiceService {
 
-  BASEURL: string = 'http://localhost:8080/products';
+  BASEURL: string = 'https://limitless-wildwood-10706.herokuapp.com/products';
 
   constructor(private http: HttpClient) { }
 
