@@ -1,0 +1,23 @@
+<table class="table table-dark">
+    <thead>
+        <tr>
+            <th scope="col">Product Name</th>
+            <th scope="col">Product Description</th>
+            <th scope="col">Product Price</th>
+            <th scope="col">Number Of Piece In Case</th>
+            <th scope="col">Price Per Piece</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let list of productList">
+            <td>{{list.productName}}</td>
+            <td>{{list.productDescription}}</td>
+            <td>{{list.productPrice}}</td>
+            <td>{{list.numberOfPiecePerCase}}</td>
+            <td>{{list.pricePerPiece}}</td>
+            <td><button type="button btn" class="btn btn-primary" [routerLink]="['/editProduct',list.productId]">Edit</button></td>
+            <td> <button type="button btn" class="btn btn-danger" (click)="deleteProduct(list)">Delete</button></td>
+        </tr>
+    </tbody>
+</table>
+<button type="button btn" class="btn  btn-success" style="margin:5px;" [routerLink]="['/newProduct']">New</button>

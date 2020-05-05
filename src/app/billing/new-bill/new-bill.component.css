@@ -1,0 +1,21 @@
+input {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+option,
+select {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.position {
+    position: sticky;
+    left: 5010px;
+    text-align: center;
+    width: 30%;
+}
+
+table {
+    font-size: medium;
+}

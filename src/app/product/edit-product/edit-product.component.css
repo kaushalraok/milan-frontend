@@ -1,0 +1,12 @@
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.text {
+    font-size: medium;
+}
+
+input {
+    font-size: medium;
+}
