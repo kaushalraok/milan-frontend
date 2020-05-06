@@ -1,6 +1,6 @@
 <div class="container" id="componentID">
     <div class="form-group">
-        <h4>Customer Name:</h4>
+        <h5>Customer Name:</h5>
         <input type="text" placeholder="Customer Name" name="productName" class="form-control" id="email">
     </div>
     <div class="row">
@@ -34,7 +34,7 @@
                             <input [(ngModel)]="field.totalAmount" class="form-control" type="text" name="{{field.totalAmount}}" disabled/>
                         </td>
                         <td>
-                            <button class="btn btn-danger" type="button" (click)="deleteFieldValue(i)">Delete</button>
+                            <button class="btn btn-danger btn-sm" type="submit" (click)="deleteFieldValue(i)"><i class="button material-icons">delete_small</i></button>
                         </td>
                     </tr>
                     <tr>
@@ -59,7 +59,7 @@
                             <input placeholder="Total Number" [(ngModel)]="totalAmount" class="form-control" type="number" disabled/>
                         </td>
                         <td>
-                            <button class="btn  btn-primary" type="button" (click)="addFieldValue()">Add</button>
+                            <button class="btn  btn-primary btn-sm" type="submit" (click)="addFieldValue()"><i class="button material-icons">playlist_add</i></button>
                         </td>
                     </tr>
                 </tbody>
@@ -76,4 +76,3 @@
         </div>
     </div>
 </div>
-<button (click)="print()">print</button>

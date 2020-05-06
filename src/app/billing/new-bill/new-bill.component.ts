@@ -85,15 +85,5 @@ export class NewBillComponent implements OnInit {
     this.grandTotal = this.grandTotal - this.newAttribute.totalAmount;
     this.fieldArray.splice(index, 1);
   }
-  print() {
-    console.log("print")
-    const printContent = document.getElementById("componentID");
-    const WindowPrt = window.open('', '', 'left=0,top=0,width=900,height=900,toolbar=0,scrollbars=0,status=0');
-    WindowPrt.document.write(printContent.innerHTML);
-    WindowPrt.document.close();
-    WindowPrt.focus();
-    WindowPrt.print();
-    WindowPrt.close();
-  }
 
 }

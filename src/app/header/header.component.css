@@ -1,11 +1,11 @@
 li {
-    font-size: large;
+    font-weight: bolder;
 }
 
 a {
-    color: aliceblue;
+    color: black;
 }
 
 .logo {
-    font-size: x-large;
+    font-weight: bolder;
 }

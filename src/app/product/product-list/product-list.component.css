@@ -1,7 +1,16 @@
 table {
-    font-size: large;
+    font-weight: bolder;
 }
 
-.btn {
+
+/* .btn {
     font-size: large;
+} */
+
+i {
+    font-size: small;
+}
+
+.button {
+    max-inline-size: 15px;
 }
