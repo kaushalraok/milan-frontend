@@ -24,7 +24,7 @@
         "@angular/router": "^9.1.3",
         "bootstrap": "^3.4.1",
         "dynamic-grid": "^0.1.8",
-        "express": "^4.17.1",
+        "express": "^4.17.3",
         "material-design-icons": "^3.0.1",
         "ngx-print": "^1.2.0-beta.4",
         "path": "^0.12.7",
